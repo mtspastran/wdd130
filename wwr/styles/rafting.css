@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #253031;
+    --secondary-color: #315659;
+    --accent1-color: #2978A0;
+    --accent2-color: #BCAB79;
+
+    --heading-font: 'Rock Salt', cursive;
+    --paragraph-font: 'Crimson Text', serif;
+
+    --nav-background-color: #C6E0FF;
+    --nav-link-color: #2978A0;
+    --nav-hover-link-color: #315659;
+    --nav-hover-background-color: #BCAB79;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+
+p {
+    padding: 20px;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    background-color: #315659;
+}
+
+
+div.hero {
+    position: relative;
+    margin: 40px;
+    background-color: var(--accent1-color);
+    opacity: 0.5
+}
+
+
+div.hero h1, article {
+    position: absolute;
+    padding: 20px;
+
+}
+
+
+div.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+article img {
+    float: right;
+}
