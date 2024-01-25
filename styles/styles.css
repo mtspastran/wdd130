@@ -13,12 +13,16 @@ nav {
 nav a {
     color:white;
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
     color: steelblue;
-    padding: 20px;
+    padding: .5rem;
+}
+
+main {
+    max-width: 840px;
 }
 
 main img {
@@ -27,40 +31,37 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: right;
+    float: right;   
+    margin: 0 0 1rem 1rem;  
 }
 
 p {
-    padding: 10px;
+    margin: 1rem;
 }
 
-main {
-    max-width: 840px;
-    margin-right: 2px;
-}
 
 aside {
-    width: 20rem;
+    width: 20em;
     text-align: center;
+    position: relative;
+
+}
+
+
+aside img {
+    width: 200px;
+    height: auto;
 }
 
 aside h2 {
-    position: relative;
-    top: 4px;
-    left: 15px;
-    text-align: center;
-}
-
-aside img {
-    width: 150px;
-    height: auto;
-    float: right;
-    display: block;
+    position: absolute;
+    top: 20px;
+    left: 150px;
 }
 
 
 footer {
-    margin-top: 15px;
+    margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
 }
@@ -73,4 +74,9 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+
+.indent {
+    padding-left: 2rem;
 }
