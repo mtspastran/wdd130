@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="In this web page you'll get to know me, my interest, and vision, and also you'll be directed to my Rafting Website.">
+    <meta name="author" content="Matias Pastran">
+    <title>Matias Pastran | WDD 130</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="https://www.mtspastran.github.io/wdd130/">Home</a>
+        <a href="https://www.mtspastran.github.io/wdd130/wwr/site-plan-rafting.html">Rafting Website</a>
+        <a href="https://www.mtspastran.github.io/wdd130/wwr/site-plan-rafting.html">Rafting Site Plan</a>
+        <a href="https://www.linkedin.com/in/matias-pastran/" target="_blank">LinkedIn Profile</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook Profile</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Matias Pastran | WDD 130</h1>
+      <img src="images/profile.jpg" alt="Hello, I'm Matias Pastran, and this is my face" width="200">
+      <p>Hello there! My name is Matias Pastran, I'm from Mendoza, Argentina. I like playing drums, spending time with my family, and I'm a fan of J.R.R. Tolkien's work. Another hobby that I'm into is BMX; actually I did it for over 10 years, and tok part on tournaments and got sponsoring opportunities. But by now, I'm working to be a software developer very soon, and I'm a BYU Idaho online student. I've been married for 7 years, and we have a daughter, who is 3 years old. She also loves playing drums with me. I'm a member of the Church of Jesus Christ of Latter Day Saints, and I served as a missionary 12 years ago, in Colombia. Thanks for visiting my page!</p>
+      <ul class="box indent">
+        <li><a href="https://www.churchofjesuschrist.org/temples/details/cordoba-argentina-temple?lang=eng" target="_blank">Cordoba Argentina Temple</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/temples/details/logan-utah-temple?lang=eng" target="_blank">Logan Utah Temple</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng" target="_blank">Washington D.C. Temple</a></li>
+      </ul>
+    </main>
+    <aside class="box">
+      <h2>Mendoza</h2>
+      <img src="images/mendoza.jpg" alt="Mendoza Landscape">
+      <p>Mendoza is a state in the west of Argantina. It borders with Chile, sharing the Andes mountains. It is world famous for its wine production and special varieties, including the awarded Malbec.</p>
+    </aside>
+    <footer>
+      <p>©️2024 ✏️ Matias Pastran ✏️ Mendoza, Argentina</p>
+    </footer>
+    <!-- Last modified: January 23rd, 2024 -->
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
