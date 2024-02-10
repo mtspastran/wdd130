@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Nunito;
 }
 
 body {
@@ -26,7 +27,6 @@ h1 {
 
 form {
     display: grid;
-    columns: 1/2;
     margin: 0 auto;
     width: 650px;
     padding: 1rem;
