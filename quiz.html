@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD 130 | Quiz Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>✅ Basic HTML and CSS quiz</h1>  
+    </header>
+    <main>
+      <form>
+        <fieldset>
+            <div class="form-item">
+              <label for="q1">1. Name one of the 4 basic components of the CSS Box Model. </label>
+              <input type="text" id="q1" name="q1">
+            </div>
+            <div class="form-item">
+              <label for="q2">2. What are some of the course file naming standards? Name at least two.</label>
+              <textarea id="q2" name="q2" rows="10" placeholder="Type your answer here."></textarea>
+            </div>
+            <div class="form-item">
+              <label for="q3">3. What image format is ideal for icons and diagrams?</label>
+              <select id="q3" name="q3">
+                <option value="" selected disabled>Choose one...</option>
+                <option value="jpeg">JPEG (.jpg)</option>
+                <option value="svg">SVG (.svg)</option>
+                <option value="bmp">BMP (.bmp)</option>
+                <option value="webp">WebP (.webp)</option>
+              </select>
+            </div>
+            <div class="form-item"> 
+              <label for="q4">4. What is the top margin given this declaration?:</label>
+                <pre>
+                  <span>margin: 10px 5px 15px;</span>
+                </pre>
+              <input type="number" id="q4" name="q4">
+            </div>
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+      </form>
+    </main>
+    <footer>
+        <p>©️2024 | Matias Pastran | Quiz Form</p>
+    </footer>
+  </body>
+</html>
