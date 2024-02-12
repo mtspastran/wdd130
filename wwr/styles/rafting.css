@@ -91,6 +91,10 @@ section {
     margin: 1rem;
     border: 1px solid black;
 }
+
+div section {
+    border: none;
+}
   
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -106,8 +110,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
 }
   
-  
-/*HERO SECCTION*/
+
 .hero {
     position: relative;
     height: auto;
@@ -206,3 +209,54 @@ footer a {
     height: auto;
 }
 
+.contactContent {
+    display: grid;
+    grid-template-columns: 1fr 50%;
+    gap: 10px;
+    line-height: 2rem;
+    margin-top: 12px;
+}
+
+
+.contactContent img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+section h1 {
+    text-align: center;
+}
+
+.contactContent label, input[type="text"], input[type="email"], textarea, select {
+    padding: 6px;
+    width: 90%;
+    font-weight: bold;
+}
+
+.radio-group {
+    display: block;
+    gap: 5px;
+    align-items: left;
+}
+
+
+.radio-group input[type="radio"] {
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #3498db;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.radio-group label {
+    font-size: 16px;
+    color: #333;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
