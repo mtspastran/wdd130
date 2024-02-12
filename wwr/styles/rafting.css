@@ -240,6 +240,17 @@ section h1 {
     gap: 5px;
 }
 
+.contactContentbutton {
+    background-color: #000080;
+    color: #fff;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+  }
+
 
 .radio-group input[type="radio"] {
     margin: 0;
