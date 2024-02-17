@@ -24,7 +24,7 @@
   
 body {
     font-family: var(--paragraph-font);
-    padding: 20px;
+    padding: 10px;
     font-size: 18px;
     max-width: 2000px;
 }
@@ -54,7 +54,7 @@ img {
 header {
     display: grid;
     grid-template-columns: .5fr 4fr;
-    margin: 1rem;
+    margin: 0.5rem;
     border: 1px solid black;
     background-color: #2978A0;
     font-size: 30px;
@@ -69,7 +69,7 @@ header {
 }
 
 div {
-    margin: 1em;
+    margin: 0.5em;
     max-width: 2000px;
 }
 
@@ -88,7 +88,7 @@ a:hover {
 }
 
 section {
-    margin: 1rem;
+    margin: 0.5rem;
     border: 1px solid black;
 }
 
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     height: auto;
     padding: 0;
-    margin: 1rem;
+    margin: 0.5rem;
 }
   
 .background-image {
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero h1 {
     position: absolute;
     top: 2%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     font-family: var(--heading-font);
     font-size: 60px;
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 130px;
     right: 80px;
     left: 80px;
-    background-color: #C6E0FF70;
+    background-color: #c6e0ff8a;
 
 }
 
@@ -184,8 +184,8 @@ footer {
     color: #000000;
     padding: 10px;
     border: 1px solid black;
-    margin: 1rem;
-    height: auto;
+    margin: 0.5rem;
+    height: 60px;
 }
   
 footer p {
